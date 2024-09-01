@@ -117,7 +117,7 @@ button:hover {
     justify-content: space-around;
   }
 
-.yellow {
+.yellow  {
     width: 20px;
     height: 20px;
     background-color: var(--yellow-);
@@ -135,12 +135,11 @@ button:hover {
 .yellow-blue {
     width: 20px;
     height: 20px;
-    background: linear-gradient(70deg,var(--yellow-),var(--blue-));
+    background: linear-gradient(60deg,var(--yellow-),var(--blue-));
   }
   .highlight {
     color: red;
   }
-
   @media only screen and (min-width: 200px) and (max-width: 800px) {
     .letter {
       width: 60px;
@@ -150,22 +149,36 @@ button:hover {
     h1 {
       font-size: 24px;
     }
-   
     button {
       padding: 5px 10px;
     }
   }
-  @media only screen and (max-width: 600px) and (max-min: 300px) {
+  
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
     .letter {
-      width: 60px;
-      height: 60px;
-      font-size: 18px;
+      width: 50px;
+      height: 50px;
+      font-size: 14px;
     }
     h1 {
-      font-size: 24px;
+      font-size: 20px;
     }
     button {
-      padding: 5px 10px;
+      padding: 4px 8px;
     }
-    
   }
+  
+  @media only screen and (max-width: 300px) {
+    .letter {
+      width: 40px;
+      height: 40px;
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    button {
+      padding: 3px 6px;
+    }
+  }
+    
