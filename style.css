@@ -61,7 +61,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 10px;
-    font-size: 24px;
+    font-size: 28px;
     position: relative;
     background-color: #fff;
     overflow: hidden; /* Ensure content stays within the circle */
@@ -71,7 +71,7 @@ body {
     bottom: 0px; /* وضع النص فوق حافة الدائرة */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 12px; /* زيادة حجم النص */
+    font-size: 9px; /* زيادة حجم النص */
     background-color: #96dc7c;
     padding: 0 10px; /* زيادة المسافة حول النص */
     border-radius: 100px;
@@ -175,15 +175,15 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     .letter {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         font-size: 16px;
     }
     h1 {
-        font-size: 24px;
+        font-size: 25px;
     }
     button {
-      padding: 5px 10px;
+      padding: 4px 8px;
   }
 }
 
